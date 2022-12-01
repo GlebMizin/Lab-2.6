@@ -50,6 +50,12 @@ if __name__ == '__main__':
                     school[cc] = nn
                 break
             print(school)
+            
+        elif command == "count":
+            summa = 0
+            for i in school:
+                summa += int(school.get(i))
+            print (summa)
 
         elif command == "exit":
             break
